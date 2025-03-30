@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+.auth-layout {
+  background: rgb(31, 79, 45);
+  background: linear-gradient(
+    185deg,
+    rgba(31, 79, 45, 1) 0%,
+    rgba(44, 125, 68, 1) 56%,
+    rgba(72, 232, 119, 1) 100%
+  );
+}
+
+.admin-sidebar {
+  background: rgb(31, 79, 45) !important;
+  background: linear-gradient(
+    185deg,
+    rgba(31, 79, 45, 1) 0%,
+    rgba(44, 125, 68, 1) 56%,
+    rgba(72, 232, 119, 1) 100%
+  ) !important;
+}
+
+/* Transparent menu items */
+.admin-sidebar .ant-menu {
+  background: transparent !important;
+  color: white !important;
+}
+
+.admin-sidebar .ant-menu-item {
+  background: transparent !important;
+  color: white !important;
+}
+
+.admin-sidebar .ant-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.admin-sidebar .ant-menu-item-selected {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.admin-sidebar .ant-menu-item-icon {
+  color: white !important;
+}
